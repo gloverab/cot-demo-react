@@ -45,7 +45,7 @@ function Home() {
         <div className={classnames('event-text-wrapper hero-sizing', {
           shrink: isSubroute
         })}>
-          <div className={'hero-text-wrapper ml-20 mb-16'}>
+          <div className={'hero-text-wrapper contained ph-20 mb-16'}>
             <p className='event-text-wrapper-name'>{thisEvent.name}</p>
             <p className='event-text-wrapper-details'>{`${thisEvent.date} • ${thisEvent.venue}`}</p>
             <p className='event-text-wrapper-details'>{thisEvent.location}</p>
@@ -53,7 +53,7 @@ function Home() {
         </div>
       }
 
-      <div className={classnames('hero-text-wrapper ml-20', {
+      <div className={classnames('hero-text-wrapper ph-20', {
         'mt-75': !isSubroute,
         'mt-28': isSubroute,
       })}>
