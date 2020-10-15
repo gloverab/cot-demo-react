@@ -50,17 +50,19 @@ function Home() {
         </div>
       }
 
-      <div className={classnames('hero-text-wrapper contained ml-20', {
+      <div className={classnames('hero-text-wrapper ml-20', {
         'mt-75': !isSubroute,
         'mt-28': isSubroute,
       })}>
-        <Link to='/' className='header'>
-          <h1>Cash<span>or</span>Trade</h1>
-        </Link>
-        {!isSubroute && <>
-          <p>No scalpers. No Brokers.<br/>Just real people sharing our love for music.</p>
-          <a href="/" className='how-it-works mt-12'>How it works</a>
-        </>}
+        <div className='contained'>
+          <Link to='/' className='header'>
+            <h1>Cash<span>or</span>Trade</h1>
+          </Link>
+          {!isSubroute && <>
+            <p>No scalpers. No Brokers.<br/>Just real people sharing our love for music.</p>
+            <a href="/" className='how-it-works mt-12'>How it works</a>
+          </>}
+        </div>
       </div>
         
       
@@ -77,15 +79,14 @@ function Home() {
 
       <div className='home-main-wrapper'>
         <Switch>
-          <Route exact path='/'>
-            <Main />
-          </Route>
           <Route path='/events/:eventId'>
             <Event
               setThisEvent={setThisEvent}
             />
           </Route>
-          
+          <Route path='/'>
+            <Main />
+          </Route>
         </Switch>
       </div>
       

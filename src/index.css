@@ -318,6 +318,7 @@ a {
 
 .hero-text-wrapper {
   position: absolute;
+  width: 100%;
 }
 
 .how-it-works {
