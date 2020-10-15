@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState, useRef } from 'react'
-import { Switch, Route, useLocation, useRouteMatch } from 'react-router-dom'
+import { Switch, Route, useLocation } from 'react-router-dom'
 import classnames from 'classnames'
 import Main from './Main'
 import Event from './Event'
@@ -12,7 +12,6 @@ const homeHeroImage = "http://i.imgur.com/Nnp4KbT.png"
 function Home() {
   const heroImageRef = useRef()
   const location = useLocation()
-  let { path, url } = useRouteMatch()
   const [thisEvent, setThisEvent] = useState()
 
   useEffect(() => {
@@ -32,8 +31,6 @@ function Home() {
   const isSubroute = useMemo(() => {
     return location.pathname.includes('events')
   }, [location])
-
-  console.log(path)
 
   return (
     <>

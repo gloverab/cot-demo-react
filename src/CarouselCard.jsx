@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link, useRouteMatch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function CarouselCard({ data }) {
-  let { path, url } = useRouteMatch()
 
   return (
     <Link to={`/events/${data.id}`}>
