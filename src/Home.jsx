@@ -57,7 +57,7 @@ function Home() {
 
       <div className='home-routes-wrapper'>
         <Switch>
-          <Route path={`${path}/events/:eventId`}>
+          <Route path={`${path}events/:eventId`}>
             <Event
               setThisEvent={setThisEvent}
             />

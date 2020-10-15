@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route
 } from "react-router-dom";
 import Home from './Home'
 import MenuIcon from './MenuIcon'
@@ -13,12 +11,8 @@ function App() {
   const [menuActive, setMenuActive] = useState(false)
 
   return (
-    <Router basename="/cot-demo-react">
-      <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+    <Router basename="/cot-demo-react/">
+      <Home />
       <MenuIcon menuActive={menuActive} setMenuActive={setMenuActive} />
       <NavDrawer menuActive={menuActive} setMenuActive={setMenuActive} />
     </Router>
