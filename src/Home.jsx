@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState, useRef } from 'react'
-import { Switch, Route, useLocation } from 'react-router-dom'
+import { Switch, Route, useLocation, useRouteMatch } from 'react-router-dom'
 import classnames from 'classnames'
 import Main from './Main'
 import Event from './Event'
@@ -13,6 +13,7 @@ function Home() {
   const heroImageRef = useRef()
   const location = useLocation()
   const [thisEvent, setThisEvent] = useState()
+  let { path } = useRouteMatch()
 
   useEffect(() => {
     if (location.pathname === '/') {
@@ -56,12 +57,12 @@ function Home() {
 
       <div className='home-routes-wrapper'>
         <Switch>
-          <Route path={`/events/:eventId`}>
+          <Route path={`${path}/events/:eventId`}>
             <Event
               setThisEvent={setThisEvent}
             />
           </Route>
-          <Route path='/'>
+          <Route path={`${path}`}>
             <Main />
           </Route>
         </Switch>
