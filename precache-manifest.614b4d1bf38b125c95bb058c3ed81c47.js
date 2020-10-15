@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1684827223a4c5981904034f8cc5a09",
+    "revision": "49ca2537bc2066790b388873f5609efd",
     "url": "/cot-demo-react/index.html"
   },
   {
-    "revision": "192f260f722fef3a93a8",
+    "revision": "b8199c71795831226e17",
     "url": "/cot-demo-react/static/css/main.ff977aee.chunk.css"
   },
   {
-    "revision": "021a7ffd9c0bef5e1935",
-    "url": "/cot-demo-react/static/js/2.024597b7.chunk.js"
+    "revision": "be3404a8e830749d6ce6",
+    "url": "/cot-demo-react/static/js/2.1285309c.chunk.js"
   },
   {
     "revision": "8c148efb6436185179e1b7ec9806bfdd",
-    "url": "/cot-demo-react/static/js/2.024597b7.chunk.js.LICENSE.txt"
+    "url": "/cot-demo-react/static/js/2.1285309c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "192f260f722fef3a93a8",
-    "url": "/cot-demo-react/static/js/main.5afb33cf.chunk.js"
+    "revision": "b8199c71795831226e17",
+    "url": "/cot-demo-react/static/js/main.d137ae2a.chunk.js"
   },
   {
     "revision": "8a7856894874e8cb8194",

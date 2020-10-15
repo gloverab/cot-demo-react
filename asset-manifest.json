@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/cot-demo-react/static/css/main.ff977aee.chunk.css",
-    "main.js": "/cot-demo-react/static/js/main.5afb33cf.chunk.js",
-    "main.js.map": "/cot-demo-react/static/js/main.5afb33cf.chunk.js.map",
+    "main.js": "/cot-demo-react/static/js/main.d137ae2a.chunk.js",
+    "main.js.map": "/cot-demo-react/static/js/main.d137ae2a.chunk.js.map",
     "runtime-main.js": "/cot-demo-react/static/js/runtime-main.6073c798.js",
     "runtime-main.js.map": "/cot-demo-react/static/js/runtime-main.6073c798.js.map",
-    "static/js/2.024597b7.chunk.js": "/cot-demo-react/static/js/2.024597b7.chunk.js",
-    "static/js/2.024597b7.chunk.js.map": "/cot-demo-react/static/js/2.024597b7.chunk.js.map",
+    "static/js/2.1285309c.chunk.js": "/cot-demo-react/static/js/2.1285309c.chunk.js",
+    "static/js/2.1285309c.chunk.js.map": "/cot-demo-react/static/js/2.1285309c.chunk.js.map",
     "index.html": "/cot-demo-react/index.html",
-    "precache-manifest.0f7ff698312b439db3331589fe8051c8.js": "/cot-demo-react/precache-manifest.0f7ff698312b439db3331589fe8051c8.js",
+    "precache-manifest.614b4d1bf38b125c95bb058c3ed81c47.js": "/cot-demo-react/precache-manifest.614b4d1bf38b125c95bb058c3ed81c47.js",
     "service-worker.js": "/cot-demo-react/service-worker.js",
     "static/css/main.ff977aee.chunk.css.map": "/cot-demo-react/static/css/main.ff977aee.chunk.css.map",
-    "static/js/2.024597b7.chunk.js.LICENSE.txt": "/cot-demo-react/static/js/2.024597b7.chunk.js.LICENSE.txt"
+    "static/js/2.1285309c.chunk.js.LICENSE.txt": "/cot-demo-react/static/js/2.1285309c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6073c798.js",
-    "static/js/2.024597b7.chunk.js",
+    "static/js/2.1285309c.chunk.js",
     "static/css/main.ff977aee.chunk.css",
-    "static/js/main.5afb33cf.chunk.js"
+    "static/js/main.d137ae2a.chunk.js"
   ]
 }
