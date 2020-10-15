@@ -13,7 +13,7 @@ function App() {
   const [menuActive, setMenuActive] = useState(false)
 
   return (
-    <Router>
+    <Router basename="/cot-demo-react">
       <Switch>
         <Route path="/">
           <Home />
