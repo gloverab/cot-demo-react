@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 function NavWithSlider({ options, textColor }) {
   const navLink1 = useRef()
@@ -15,7 +16,6 @@ function NavWithSlider({ options, textColor }) {
   }, [])
   
   const handleClick = (e) => {
-    e.preventDefault()
     navLink1.current.classList.remove('active')
     navLink2.current.classList.remove('active')
     e.target.classList.add('active')
@@ -26,8 +26,8 @@ function NavWithSlider({ options, textColor }) {
 
   return (
     <div className='mb-16'>
-      <a href='/' ref={navLink1} onClick={handleClick} className='nav-with-slider-link active lh-32' style={{ color: textColor }}>{options[0].label}</a>
-      <a href='/' ref={navLink2} onClick={handleClick} className='nav-with-slider-link lh-32' style={{ color: textColor }}>{options[1].label}</a>
+      <Link to={options[0].path} ref={navLink1} onClick={handleClick} className='nav-with-slider-link active lh-32' style={{ color: textColor }}>{options[0].label}</Link>
+      <Link to={options[1].path} ref={navLink2} onClick={handleClick} className='nav-with-slider-link lh-32' style={{ color: textColor }}>{options[1].label}</Link>
       <div ref={lineRef} className='nav-with-slider-line'/>
     </div>
   )
