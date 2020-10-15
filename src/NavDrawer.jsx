@@ -14,12 +14,14 @@ function NavDrawer({ menuActive, setMenuActive }) {
     if (menuActive && !show) {
       drawerRef.current.style.display = 'block'
       overlayRef.current.style.display = 'block'
+      document.body.style.overflowY = 'hidden'
       setTimeout(() => setShow(true), 20)
     } else {
       setShow(false)
       setTimeout(() => {
         drawerRef.current.style.display = 'none'
         overlayRef.current.style.display = 'none'
+        document.body.style.overflowY = 'visible'
       }, 301)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

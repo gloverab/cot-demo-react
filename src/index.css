@@ -64,6 +64,10 @@ h1 {
   text-decoration: none;
 }
 
+.header.sm h1 {
+  font-size: 23px;
+}
+
 h1 span {
   font-weight: 100;
 }
@@ -389,7 +393,7 @@ a {
   font-weight: 100;
 }
 
-.home-main-wrapper {
+.home-routes-wrapper {
   background: #F5F5F5;
   padding-top: 360px;
 }
@@ -563,7 +567,7 @@ a {
     height: 360px;
   }
 
-  .home-main-wrapper {
+  .home-routes-wrapper {
     padding-top: 420px;
   }
 
