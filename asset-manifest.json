@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cot-demo-react/static/css/main.6ae5151e.chunk.css",
+    "main.js": "/cot-demo-react/static/js/main.94957421.chunk.js",
+    "main.js.map": "/cot-demo-react/static/js/main.94957421.chunk.js.map",
+    "runtime-main.js": "/cot-demo-react/static/js/runtime-main.6073c798.js",
+    "runtime-main.js.map": "/cot-demo-react/static/js/runtime-main.6073c798.js.map",
+    "static/js/2.024597b7.chunk.js": "/cot-demo-react/static/js/2.024597b7.chunk.js",
+    "static/js/2.024597b7.chunk.js.map": "/cot-demo-react/static/js/2.024597b7.chunk.js.map",
+    "index.html": "/cot-demo-react/index.html",
+    "precache-manifest.9cbd24a8a336989eef5a35d75219c085.js": "/cot-demo-react/precache-manifest.9cbd24a8a336989eef5a35d75219c085.js",
+    "service-worker.js": "/cot-demo-react/service-worker.js",
+    "static/css/main.6ae5151e.chunk.css.map": "/cot-demo-react/static/css/main.6ae5151e.chunk.css.map",
+    "static/js/2.024597b7.chunk.js.LICENSE.txt": "/cot-demo-react/static/js/2.024597b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6073c798.js",
+    "static/js/2.024597b7.chunk.js",
+    "static/css/main.6ae5151e.chunk.css",
+    "static/js/main.94957421.chunk.js"
+  ]
+}
