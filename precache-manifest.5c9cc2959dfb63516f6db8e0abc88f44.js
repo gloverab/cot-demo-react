@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e4ff6593e820a42c7c80006856902be",
+    "revision": "d3e8ff64ef0881489a715e9489375ecd",
     "url": "/cot-demo-react/index.html"
   },
   {
-    "revision": "80f4f434c0f764002ccf",
+    "revision": "edd377862f1d06fb4c25",
     "url": "/cot-demo-react/static/css/main.ff977aee.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cot-demo-react/static/js/2.1285309c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80f4f434c0f764002ccf",
-    "url": "/cot-demo-react/static/js/main.c02f62cd.chunk.js"
+    "revision": "edd377862f1d06fb4c25",
+    "url": "/cot-demo-react/static/js/main.613ef687.chunk.js"
   },
   {
     "revision": "8a7856894874e8cb8194",
