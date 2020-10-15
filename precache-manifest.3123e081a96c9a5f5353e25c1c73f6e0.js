@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d88c6fdc62d259240a96db6c1d1e73e5",
+    "revision": "ed48fe8770ae6b8245bb42ae86c97bb8",
     "url": "/cot-demo-react/index.html"
   },
   {
-    "revision": "aad7c473b1cf2228c7f7",
+    "revision": "f3840b48d2d1be4cb427",
     "url": "/cot-demo-react/static/css/main.dfa6526a.chunk.css"
   },
   {
-    "revision": "823c651de2e34dc45432",
-    "url": "/cot-demo-react/static/js/2.9f5c59b9.chunk.js"
+    "revision": "e0a66eda29d287e958cf",
+    "url": "/cot-demo-react/static/js/2.6abd7b70.chunk.js"
   },
   {
     "revision": "8c148efb6436185179e1b7ec9806bfdd",
-    "url": "/cot-demo-react/static/js/2.9f5c59b9.chunk.js.LICENSE.txt"
+    "url": "/cot-demo-react/static/js/2.6abd7b70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aad7c473b1cf2228c7f7",
-    "url": "/cot-demo-react/static/js/main.10db498a.chunk.js"
+    "revision": "f3840b48d2d1be4cb427",
+    "url": "/cot-demo-react/static/js/main.075605d5.chunk.js"
   },
   {
     "revision": "8a7856894874e8cb8194",
